@@ -1,0 +1,8 @@
+n = int(input("Kaç terim istiyorsunuz: "))
+
+a, b = 0, 1
+print("Fibonacci Serisi:")
+
+for _ in range(n):
+    print(a, end=" ")
+    a, b = b, a + b
