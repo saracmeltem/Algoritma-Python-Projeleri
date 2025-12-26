@@ -1,0 +1,7 @@
+deger = input("Bir değer girin: ")
+
+try:
+    sayi = int(deger)
+    print("Girilen değer tam sayıdır.")
+except ValueError:
+    print("Girilen değer tam sayı değildir.")
